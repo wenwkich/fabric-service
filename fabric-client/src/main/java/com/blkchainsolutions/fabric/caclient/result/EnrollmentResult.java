@@ -7,9 +7,8 @@ import lombok.ToString;
 @Builder
 @Getter
 @ToString
-class EnrollmentResult {
+public class EnrollmentResult {
   @ToString.Exclude private String privateKey;
   private String cert;
-  private String username;
   @ToString.Exclude private String secret;
 }

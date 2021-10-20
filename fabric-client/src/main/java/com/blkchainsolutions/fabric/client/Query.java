@@ -1,9 +1,9 @@
 package com.blkchainsolutions.fabric.client;
 
-import com.blkchainsolutions.fabric.client.exceptions.QueryException;
-import com.blkchainsolutions.fabric.client.exceptions.SerializationException;
-import com.blkchainsolutions.fabric.client.params.QueryInvokeArgs;
-import com.blkchainsolutions.fabric.identity.exceptions.IdentityNotFoundException;
+import com.blkchainsolutions.fabric.client.exception.QueryException;
+import com.blkchainsolutions.fabric.client.exception.SerializationException;
+import com.blkchainsolutions.fabric.client.param.QueryInvokeArgs;
+import com.blkchainsolutions.fabric.identity.exception.IdentityNotFoundException;
 
 public interface Query {
 

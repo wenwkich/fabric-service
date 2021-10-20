@@ -3,8 +3,7 @@ package com.blkchainsolutions.fabric.identity;
 import java.io.IOException;
 import java.nio.file.Paths;
 
-import com.blkchainsolutions.fabric.client.properties.WalletConfigProperties;
-import com.blkchainsolutions.fabric.identity.exceptions.WalletCreationException;
+import com.blkchainsolutions.fabric.identity.exception.WalletCreationException;
 
 import org.hyperledger.fabric.gateway.Wallet;
 import org.hyperledger.fabric.gateway.Wallets;
