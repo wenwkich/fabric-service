@@ -175,7 +175,6 @@ public class FabricCAClientImpl implements FabricCAClient {
 
   private X509Identity reenrollUserHelper(EnrollmentArgs args) throws EnrollmentException {
     final String user = args.getEnrollmentId();
-    final String secret = args.getSecret();
     final String caName = args.getCaName();
     final String mspId = args.getMspId();
     final Map<String, String> extendedAttr = args.getExtendedAttributes();
@@ -217,6 +216,5 @@ public class FabricCAClientImpl implements FabricCAClient {
       .secret(args.getSecret())
       .build();
   }
-
 
 }
